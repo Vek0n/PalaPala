@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+
+        <item
+            android:id="@+id/english"
+            android:icon="@mipmap/ic_gbflag"
+            android:title="@string/menu_nav_en" />
+        <item
+            android:id="@+id/polish"
+            android:icon="@mipmap/ic_polishflag"
+            android:title="@string/menu_nav_pl" />
+
+        <item
+            android:id="@+id/french"
+            android:icon="@mipmap/ic_frflag"
+            android:title="@string/menu_nav_fr" />
+
+
+
+       <!--
+        <item
+            android:id="@+id/spanish"
+            android:icon="@mipmap/ic_spainflag"
+            android:title="@string/menu_nav_es" />
+
+
+        <item
+            android:id="@+id/german"
+            android:icon="@mipmap/ic_germanflag"
+            android:title="@string/menu_nav_ger" />
+        -->
+
+    </group>
+
+    <item android:title="@string/menu_nav_other">
+        <menu>
+            <item
+                android:id="@+id/count_points"
+                android:icon="@drawable/ic_countpoints"
+                android:title="@string/menu_nav_count" />
+
+            <item
+                android:id="@+id/about_app"
+                android:icon="@drawable/ic_about_app"
+                android:title="@string/menu_nav_about" />
+
+        </menu>
+    </item>
+
+</menu>

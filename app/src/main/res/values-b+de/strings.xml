@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">PalaPala</string>
+    <string name="app_name2">PalaPala</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="buttonCountPoints"> Search </string>
+
+    <string name="menu_nav_en">Englisch</string>
+    <string name="menu_nav_pl">Polnisch</string>
+    <string name="menu_nav_es">Spanisch</string>
+    <string name="menu_nav_ger">Deutch</string>
+    <string name="menu_nav_fr">French</string>
+    <string name="menu_nav_other">Andere</string>
+    <string name="menu_nav_count">Zählst die Punkte</string>
+    <string name="menu_nav_about">Über Anwendung</string>
+    <string name="countPointsPoints">0</string>
+    <string name="aboutAppVersion">Version 1.1</string>
+    <string name="textAboutApp">Found some bugs? Any ideas for improvement? Feel free to send me an e-mail!</string>
+    <string name="contactMeButton">Contact</string>
+    <string name="buttonRate">Rate app</string>
+
+
+    <string-array name="chooseLanguage">
+        <item>English</item>
+        <item>Polski</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+    </string-array>
+</resources>

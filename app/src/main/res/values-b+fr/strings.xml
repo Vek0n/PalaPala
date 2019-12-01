@@ -1,0 +1,32 @@
+<resources>
+    <string name="app_name">PalaPala - Your scrabble helper</string>
+    <string name="app_name2">PalaPala</string>
+
+    <string name="navigation_drawer_open">a</string>
+    <string name="navigation_drawer_close">b</string>
+
+    <string name="buttonCountPoints"> Compter </string>
+
+    <string name="menu_nav_en">Anglais</string>
+    <string name="menu_nav_pl">Polonais</string>
+    <string name="menu_nav_es">Espanol</string>
+    <string name="menu_nav_ger">Allemand</string>
+    <string name="menu_nav_fr">Français</string>
+    <string name="menu_nav_other">Autre</string>
+    <string name="menu_nav_count">Points de compte</string>
+    <string name="menu_nav_about">À propos de l\'application</string>
+
+
+    <string-array name="chooseLanguage">
+        <item>English</item>
+        <item>Polski</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+    </string-array>
+
+    <string name="aboutAppVersion">Version 1.1</string>
+    <string name="textAboutApp">Found some bugs? Any ideas for improvement? Feel free to send me an e-mail!</string>
+    <string name="contactMeButton">Contact</string>
+    <string name="buttonRate">Application de taux</string>
+    <string name="countPointsPoints">0</string>
+</resources>

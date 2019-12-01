@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name2">PalaPala</string>
+    <string name="app_name">PalaPala - Twój pomocnik w scrabble</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="buttonCountPoints"> Search </string>
+
+    <string name="menu_nav_en">Angielski</string>
+    <string name="menu_nav_pl">Polski</string>
+    <string name="menu_nav_es">Hiszpański</string>
+    <string name="menu_nav_ger">Niemiecki</string>
+    <string name="menu_nav_fr">Francuski</string>
+
+    <string name="menu_nav_other">Inne</string>
+    <string name="menu_nav_count">Policz punkty</string>
+    <string name="menu_nav_about">O aplikacji</string>
+    <string name="buttonRate">Oceń aplikację</string>
+    <string name="countPointsPoints">0</string>
+
+
+    <string name="aboutAppVersion">Version 1.1</string>
+    <string name="textAboutApp">Znalazłeś błąd? Masz pomysł jak ulepszyć aplikację? Napisz mi e-maila!</string>
+    <string name="contactMeButton">Kontakt</string>
+    <string-array name="chooseLanguage">
+        <item>English</item>
+        <item>Polski</item>
+        <item>Français</item>
+        <item>Deutsch</item>
+    </string-array>
+
+</resources>

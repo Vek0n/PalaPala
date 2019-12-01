@@ -1,0 +1,53 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.szymonkaczmarek.palapala.FrenchFragment">
+
+    <EditText
+        android:id="@+id/editTextFrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="24dp"
+        android:ems="10"
+        android:hint="Type your letters"
+        android:inputType="textVisiblePassword" />
+
+    <Button
+        android:id="@+id/buttonFrench"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/editTextFrench"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="21dp"
+        android:text="Chercher" />
+
+    <ListView
+        android:id="@+id/listFrench"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/buttonFrench"
+        android:layout_marginBottom="55dp"
+        android:layout_marginTop="22dp" />
+
+
+    <ImageButton
+        android:id="@+id/imageButtonInfoFr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/editTextFrench"
+        android:layout_alignTop="@+id/editTextFrench"
+        android:layout_marginEnd="12dp"
+        android:layout_marginRight="12dp"
+        android:layout_toRightOf="@+id/editTextFrench"
+        app:srcCompat="@android:drawable/ic_menu_info_details"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true" />
+
+
+</RelativeLayout>
